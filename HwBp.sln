@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HwBpLib", "HwBpLib\Build\HwBpLib.vcxproj", "{BB2133C9-BEA0-4C3F-9950-6EC67DD0D8F9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{A714E2D0-D74F-4753-8501-E4EDFACA1377}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "HwBpLib\test\test.vcxproj", "{A714E2D0-D74F-4753-8501-E4EDFACA1377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
