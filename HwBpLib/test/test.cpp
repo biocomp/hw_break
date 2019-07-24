@@ -43,9 +43,11 @@ int main()
     auto bp = HwBp::Set(&var, sizeof(42));
 
     var = 33;
+    DebugBreak();
     ASSERT(bpFound);
 
     HwBp::Remove(bp);
 
+    std::cout << "Success!\n";
     return 0;
 }
