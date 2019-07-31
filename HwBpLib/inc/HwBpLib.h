@@ -182,7 +182,7 @@ namespace HwBp
         }
 
         Detail::UpdateThreadContext(
-            [&](CONTEXT& ctx, const std::array<bool, 4>& busyDebugRegister) -> Breakpoint
+            [&](CONTEXT& ctx, const std::array<bool, 4>&) -> Breakpoint
             {
                 std::bitset<sizeof(ctx.Dr7) * 8> dr7;
                 std::memcpy(&dr7, &ctx.Dr7, sizeof(ctx.Dr7));
