@@ -9,4 +9,4 @@ This library was inspired by https://www.codeproject.com/Articles/28071/Toggle-h
 It only sets breakpoints on current thread, but does it faster (as it doesn't spin up threads to do that).
 
 ## Building tests
-The library is header-only, but you can build and run test file by building HwBpLib.sln.
+The library is header-only, but you can build and run test file by building HwBp.sln.
