@@ -12,6 +12,7 @@ namespace
     {
         static GlobalState& Get()
         {
+            static GlobalState m_state;
             return m_state;
         }
 
@@ -41,8 +42,6 @@ namespace
             m_breakPointFound = 0;
         }
 
-        static GlobalState m_state;
-         
         int m_breakPointFound;
     };
 
