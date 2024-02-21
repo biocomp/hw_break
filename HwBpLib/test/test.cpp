@@ -12,7 +12,8 @@ namespace
     {
         static GlobalState& Get()
         {
-            return m_state;
+            static GlobalState state;
+            return state;
         }
 
         void Reset()
@@ -40,8 +41,6 @@ namespace
         {
             m_breakPointFound = 0;
         }
-
-        static GlobalState m_state;
          
         int m_breakPointFound;
     };
